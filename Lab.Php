@@ -23,10 +23,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Connect to MySQL database
-    $host = 'localhost';
-    $db = 'your_database_name';
-    $user = 'your_username';
-    $password = 'your_password';
+    $host = 'http://127.0.0.1/';
+    $db = 'labibp';
+    $user = '';
+    $password = '';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=utf8mb4";
 
